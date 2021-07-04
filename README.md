@@ -1,24 +1,24 @@
-# tth-ui
+# jump-tigger-ui (跳跳虎 UI)
 
-## Project setup
-```
-npm install
-```
+**说明：由于项目中一直使用 element-ui, 所以仿照 element-ui 完成了 jump-tigger-ui。（支持部分组件）**
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+目前支持的组件：
+Button,
+Checkbox,
+CheckboxGroup,
+Dialog,
+Input,
+Form,
+FormItem,
+Switch,
+Radio,
+RadioGroup
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- 安装组件库
+  yarn add jump-tigger-ui
 
-### Lints and fixes files
-```
-npm run lint
-```
+- 全局导入
+  import JumpTiggerUi form "jump-tigger-ui"
+  import "jump-tigger-ui/lib/jump-tigger-ui.css"
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  Vue.use(JumpTiggerUi)
